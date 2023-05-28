@@ -1,1 +1,1 @@
-# Pj2
+# Este é somente um repositório de teste para o GitHub
