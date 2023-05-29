@@ -1,5 +1,21 @@
 body{
     background-color: powderblue;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    
+}
+#linguagens{
+    text-align: left;
+    margin-top: 1%;
+}
+summary{
+    font-size: 25px;
+    -webkit-text-stroke: black 1px;
+}
+#html{
+    color: #ff0000;
+}
+#css{
+    color: #0000ff;
+}
+#JavaScript{
+    color: #e5fd08;
 }
