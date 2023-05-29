@@ -1,5 +1,45 @@
 body{
     background-color: powderblue;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#linguagens{
+    text-align: left;
+    margin-top: 1%;
+}
+summary{
+    font-size: 25px;
+    -webkit-text-stroke: black 1px;
+}
+#html{
+    color: #ff0000;
+}
+#css{
+    color: #0000ff;
+}
+#JavaScript{
+    color: #e5fd08;
+}
+li{
+    margin-top: 1%;
+    font-size: 22px;
+    color: black;
+    position: relative;
+    left: 3px;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+.ul_js{
+    margin-top: 0px;
+    padding: 10px;
+    border: 3px solid rgb(200, 230, 31);
+    background-color: rgb(122, 124, 106);
+    border-radius: 21px 6px 21px 6px;
     
+    position: absolute;
+    left: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
 }
