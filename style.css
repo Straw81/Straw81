@@ -3,8 +3,10 @@ body{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 #linguagens{
-    text-align: left;
-    margin-top: 1%;
+    display: flex;
+    margin: 5px;
+    flex-direction: column;
+    flex-wrap: wrap;
 }
 summary{
     font-size: 25px;
@@ -25,21 +27,29 @@ li{
     color: black;
     position: relative;
     left: 3px;
+    list-style-type: none;
 }
 a{
     text-decoration: none;
     color: inherit;
 }
-.ul_js{
-    margin-top: 0px;
+ul{
     padding: 10px;
-    border: 3px solid rgb(200, 230, 31);
-    background-color: rgb(122, 124, 106);
-    border-radius: 21px 6px 21px 6px;
-    
+    margin: 20px;
+    list-style-type: none;
     position: absolute;
     left: 15px;
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
+    justify-content: space-around;
+}
+.ul_js{
+    border: 3px solid rgb(200, 230, 31);
+    background-color: rgb(122, 124, 106);
+    border-radius: 21px 6px 21px 6px;
+}
+.ul_html{
+    border: 3px solid red;
+    background: white;
 }
